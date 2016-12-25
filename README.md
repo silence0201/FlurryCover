@@ -19,10 +19,11 @@
 	[scrollView addFlurryCoverWithImage:[UIImage imageNamed:@"cover"]] ;
 	
 ###注意事项
-需要在视图的`dealloc`中移除,需要调用以下方法
+* 需要在视图的`dealloc`中移除,需要调用以下方法
 
-	-(void)dealloc{
-    	[scrollView removeFlurryCoverView] ;
-	}
+		-(void)dealloc{
+    		[scrollView removeFlurryCoverView] ;
+		}
+* 不要使用高质量图片,会增加内存的占用
 
 
