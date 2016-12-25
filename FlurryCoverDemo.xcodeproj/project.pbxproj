@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8D7C7411E10058B00D622F1 /* SIFlurryCover.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D7C73E1E10058B00D622F1 /* SIFlurryCover.m */; };
+		E8D7C7421E10058B00D622F1 /* UIScrollView+SIFlurryCover.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D7C7401E10058B00D622F1 /* UIScrollView+SIFlurryCover.m */; };
 		E8EF32EB1E0EA73500C14191 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EF32EA1E0EA73500C14191 /* main.m */; };
 		E8EF32EE1E0EA73500C14191 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EF32ED1E0EA73500C14191 /* AppDelegate.m */; };
 		E8EF32F11E0EA73500C14191 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EF32F01E0EA73500C14191 /* ViewController.m */; };
 		E8EF32F61E0EA73500C14191 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8EF32F51E0EA73500C14191 /* Assets.xcassets */; };
 		E8EF32F91E0EA73500C14191 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8EF32F71E0EA73500C14191 /* LaunchScreen.storyboard */; };
-		E8EF33031E0EA7B400C14191 /* SIFlurryCover.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EF33021E0EA7B400C14191 /* SIFlurryCover.m */; };
-		E8EF33061E0EAAE700C14191 /* UIScrollView+SIFlurryCover.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EF33051E0EAAE700C14191 /* UIScrollView+SIFlurryCover.m */; };
 		E8EF33091E0EB01100C14191 /* DemoTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EF33081E0EB01100C14191 /* DemoTableView.m */; };
 		E8EF330C1E0EB02200C14191 /* DemoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EF330B1E0EB02200C14191 /* DemoScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E8D7C73D1E10058B00D622F1 /* SIFlurryCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIFlurryCover.h; sourceTree = "<group>"; };
+		E8D7C73E1E10058B00D622F1 /* SIFlurryCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIFlurryCover.m; sourceTree = "<group>"; };
+		E8D7C73F1E10058B00D622F1 /* UIScrollView+SIFlurryCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SIFlurryCover.h"; sourceTree = "<group>"; };
+		E8D7C7401E10058B00D622F1 /* UIScrollView+SIFlurryCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SIFlurryCover.m"; sourceTree = "<group>"; };
 		E8EF32E61E0EA73500C14191 /* FlurryCoverDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlurryCoverDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EF32EA1E0EA73500C14191 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E8EF32EC1E0EA73500C14191 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,10 +32,6 @@
 		E8EF32F51E0EA73500C14191 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8EF32F81E0EA73500C14191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8EF32FA1E0EA73500C14191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E8EF33011E0EA7B400C14191 /* SIFlurryCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIFlurryCover.h; sourceTree = "<group>"; };
-		E8EF33021E0EA7B400C14191 /* SIFlurryCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIFlurryCover.m; sourceTree = "<group>"; };
-		E8EF33041E0EAAE700C14191 /* UIScrollView+SIFlurryCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SIFlurryCover.h"; sourceTree = "<group>"; };
-		E8EF33051E0EAAE700C14191 /* UIScrollView+SIFlurryCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SIFlurryCover.m"; sourceTree = "<group>"; };
 		E8EF33071E0EB01100C14191 /* DemoTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableView.h; sourceTree = "<group>"; };
 		E8EF33081E0EB01100C14191 /* DemoTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableView.m; sourceTree = "<group>"; };
 		E8EF330A1E0EB02200C14191 /* DemoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoScrollView.h; sourceTree = "<group>"; };
@@ -49,6 +49,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E8D7C73C1E10058B00D622F1 /* FlurryCover */ = {
+			isa = PBXGroup;
+			children = (
+				E8D7C73D1E10058B00D622F1 /* SIFlurryCover.h */,
+				E8D7C73E1E10058B00D622F1 /* SIFlurryCover.m */,
+				E8D7C73F1E10058B00D622F1 /* UIScrollView+SIFlurryCover.h */,
+				E8D7C7401E10058B00D622F1 /* UIScrollView+SIFlurryCover.m */,
+			);
+			path = FlurryCover;
+			sourceTree = "<group>";
+		};
 		E8EF32DD1E0EA73500C14191 = {
 			isa = PBXGroup;
 			children = (
@@ -68,7 +79,7 @@
 		E8EF32E81E0EA73500C14191 /* FlurryCoverDemo */ = {
 			isa = PBXGroup;
 			children = (
-				E8EF33001E0EA75A00C14191 /* FlurryCover */,
+				E8D7C73C1E10058B00D622F1 /* FlurryCover */,
 				E8EF32EC1E0EA73500C14191 /* AppDelegate.h */,
 				E8EF32ED1E0EA73500C14191 /* AppDelegate.m */,
 				E8EF32EF1E0EA73500C14191 /* ViewController.h */,
@@ -91,17 +102,6 @@
 				E8EF32EA1E0EA73500C14191 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E8EF33001E0EA75A00C14191 /* FlurryCover */ = {
-			isa = PBXGroup;
-			children = (
-				E8EF33011E0EA7B400C14191 /* SIFlurryCover.h */,
-				E8EF33021E0EA7B400C14191 /* SIFlurryCover.m */,
-				E8EF33041E0EAAE700C14191 /* UIScrollView+SIFlurryCover.h */,
-				E8EF33051E0EAAE700C14191 /* UIScrollView+SIFlurryCover.m */,
-			);
-			path = FlurryCover;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,11 +177,11 @@
 			files = (
 				E8EF330C1E0EB02200C14191 /* DemoScrollView.m in Sources */,
 				E8EF32F11E0EA73500C14191 /* ViewController.m in Sources */,
-				E8EF33031E0EA7B400C14191 /* SIFlurryCover.m in Sources */,
 				E8EF32EE1E0EA73500C14191 /* AppDelegate.m in Sources */,
 				E8EF32EB1E0EA73500C14191 /* main.m in Sources */,
+				E8D7C7421E10058B00D622F1 /* UIScrollView+SIFlurryCover.m in Sources */,
 				E8EF33091E0EB01100C14191 /* DemoTableView.m in Sources */,
-				E8EF33061E0EAAE700C14191 /* UIScrollView+SIFlurryCover.m in Sources */,
+				E8D7C7411E10058B00D622F1 /* SIFlurryCover.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +332,7 @@
 				E8EF32FF1E0EA73500C14191 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
