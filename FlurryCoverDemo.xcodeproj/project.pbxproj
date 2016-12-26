@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E8D7C7411E10058B00D622F1 /* SIFlurryCover.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D7C73E1E10058B00D622F1 /* SIFlurryCover.m */; };
-		E8D7C7421E10058B00D622F1 /* UIScrollView+SIFlurryCover.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D7C7401E10058B00D622F1 /* UIScrollView+SIFlurryCover.m */; };
+		E8DF19D81E10A4FC00AD432E /* SIFlurryCover.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DF19D51E10A4FC00AD432E /* SIFlurryCover.m */; };
+		E8DF19D91E10A4FC00AD432E /* UIScrollView+SIFlurryCover.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DF19D71E10A4FC00AD432E /* UIScrollView+SIFlurryCover.m */; };
 		E8EF32EB1E0EA73500C14191 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EF32EA1E0EA73500C14191 /* main.m */; };
 		E8EF32EE1E0EA73500C14191 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EF32ED1E0EA73500C14191 /* AppDelegate.m */; };
 		E8EF32F11E0EA73500C14191 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EF32F01E0EA73500C14191 /* ViewController.m */; };
@@ -19,10 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E8D7C73D1E10058B00D622F1 /* SIFlurryCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIFlurryCover.h; sourceTree = "<group>"; };
-		E8D7C73E1E10058B00D622F1 /* SIFlurryCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIFlurryCover.m; sourceTree = "<group>"; };
-		E8D7C73F1E10058B00D622F1 /* UIScrollView+SIFlurryCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SIFlurryCover.h"; sourceTree = "<group>"; };
-		E8D7C7401E10058B00D622F1 /* UIScrollView+SIFlurryCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SIFlurryCover.m"; sourceTree = "<group>"; };
+		E8DF19D41E10A4FC00AD432E /* SIFlurryCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIFlurryCover.h; sourceTree = "<group>"; };
+		E8DF19D51E10A4FC00AD432E /* SIFlurryCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIFlurryCover.m; sourceTree = "<group>"; };
+		E8DF19D61E10A4FC00AD432E /* UIScrollView+SIFlurryCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SIFlurryCover.h"; sourceTree = "<group>"; };
+		E8DF19D71E10A4FC00AD432E /* UIScrollView+SIFlurryCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SIFlurryCover.m"; sourceTree = "<group>"; };
 		E8EF32E61E0EA73500C14191 /* FlurryCoverDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlurryCoverDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EF32EA1E0EA73500C14191 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E8EF32EC1E0EA73500C14191 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -49,13 +49,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E8D7C73C1E10058B00D622F1 /* FlurryCover */ = {
+		E8DF19D31E10A4FC00AD432E /* FlurryCover */ = {
 			isa = PBXGroup;
 			children = (
-				E8D7C73D1E10058B00D622F1 /* SIFlurryCover.h */,
-				E8D7C73E1E10058B00D622F1 /* SIFlurryCover.m */,
-				E8D7C73F1E10058B00D622F1 /* UIScrollView+SIFlurryCover.h */,
-				E8D7C7401E10058B00D622F1 /* UIScrollView+SIFlurryCover.m */,
+				E8DF19D41E10A4FC00AD432E /* SIFlurryCover.h */,
+				E8DF19D51E10A4FC00AD432E /* SIFlurryCover.m */,
+				E8DF19D61E10A4FC00AD432E /* UIScrollView+SIFlurryCover.h */,
+				E8DF19D71E10A4FC00AD432E /* UIScrollView+SIFlurryCover.m */,
 			);
 			path = FlurryCover;
 			sourceTree = "<group>";
@@ -79,7 +79,7 @@
 		E8EF32E81E0EA73500C14191 /* FlurryCoverDemo */ = {
 			isa = PBXGroup;
 			children = (
-				E8D7C73C1E10058B00D622F1 /* FlurryCover */,
+				E8DF19D31E10A4FC00AD432E /* FlurryCover */,
 				E8EF32EC1E0EA73500C14191 /* AppDelegate.h */,
 				E8EF32ED1E0EA73500C14191 /* AppDelegate.m */,
 				E8EF32EF1E0EA73500C14191 /* ViewController.h */,
@@ -179,9 +179,9 @@
 				E8EF32F11E0EA73500C14191 /* ViewController.m in Sources */,
 				E8EF32EE1E0EA73500C14191 /* AppDelegate.m in Sources */,
 				E8EF32EB1E0EA73500C14191 /* main.m in Sources */,
-				E8D7C7421E10058B00D622F1 /* UIScrollView+SIFlurryCover.m in Sources */,
+				E8DF19D91E10A4FC00AD432E /* UIScrollView+SIFlurryCover.m in Sources */,
 				E8EF33091E0EB01100C14191 /* DemoTableView.m in Sources */,
-				E8D7C7411E10058B00D622F1 /* SIFlurryCover.m in Sources */,
+				E8DF19D81E10A4FC00AD432E /* SIFlurryCover.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
