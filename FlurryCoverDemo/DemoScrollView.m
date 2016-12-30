@@ -32,13 +32,11 @@
     [_scrollView addFlurryCoverWithImage:[UIImage imageNamed:@"cover"]] ;
     [self.view addSubview:_scrollView] ;
     
-    [_scrollView addSubview:({
-        UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(20, 0, self.view.bounds.size.width - 40, 1000 - 200)];
-        label.numberOfLines = 0;
-        label.font = [UIFont systemFontOfSize:22];
-        label.text = @"测试文本\n\n测试文本\n\n下拉模糊.\n\n很简单的使用";
-        label;
-    })];
+    UIButton *button  = [[UIButton alloc]initWithFrame:CGRectMake(20, 200, 100, 50)] ;
+    [button setTitle:@"测试按钮" forState:UIControlStateNormal] ;
+    [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal] ;
+    [_scrollView addSubview:button] ;
+    
 }
 
 -(void)dealloc{
