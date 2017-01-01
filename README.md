@@ -4,11 +4,15 @@
 
 使用说明
 =======
-###导入文件
+###安装
+#####手工导入:  
 将项目目录下的`FlurryCover`目录导入项目中
 `SIFlurryCover`:UIImageView子类,实现模糊效果
 `UIScrollView+SIFlurryCover`:UIScrollView的分类,添加头部下拉模糊
+#####pod安装
 
+	pod 'FlurryCover', '~> 1.0'
+	
 ###导入投文件
 	#import "UIScrollView+SIFlurryCover.h"
 	
