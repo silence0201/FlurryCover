@@ -30,4 +30,7 @@
 		}
 * 不要使用高质量图片,会增加内存的占用
 
+##FlurryCover
+FlurryCover is available under the MIT license. See the LICENSE file for more info.
+
 
